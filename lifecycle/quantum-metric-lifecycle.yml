@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.quantummetric.com/
+status_page: https://status.quantummetric.com/
+status_page_provider: Atlassian Statuspage
+status_components:
+  - QM UI
+  - Login services
+  - Data query performance
+  - Alerts
+  - Data capture
+  - Replays
+versioning:
+  scheme: unknown
+  note: "No public API versioning policy was discoverable; the API surface is provisioned per customer instance behind authenticated access."
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: "No public deprecation/sunset policy was discoverable during enrichment."
+sla:
+  url: null
+deprecated_operations: []
+notes: >-
+  Status page confirmed live (Atlassian Statuspage) with per-service uptime and
+  incident history plus email/SMS/Slack/RSS subscriptions. No public OpenAPI, so
+  no deprecated operations could be derived.

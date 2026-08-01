@@ -1,8 +1,28 @@
 aid: quantum-metric
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantum-metric.png
 name: Quantum Metric
-description: Quantum Metric is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Quantum Metric is a continuous product design and digital experience
+  intelligence platform that captures and quantifies every user session across
+  web and mobile, replaying interactions and surfacing friction, errors, and
+  conversion opportunities in real time so that product, engineering, and
+  customer-experience teams can prioritize work by quantified business impact.
+  The platform exposes data-export and integration APIs to customers within
+  their authenticated instance; during enrichment no public, unauthenticated
+  developer portal or OpenAPI definition was discoverable
+  (developer.quantummetric.com and docs.quantummetric.com redirect to the
+  marketing site and the help center returns a maintenance page).
 url: https://raw.githubusercontent.com/api-evangelist/quantum-metric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Analytics
+- Digital Experience
+- Session Replay
+- Customer Experience
+- Product Analytics
+- Observability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.quantummetric.com/
+- type: Blog
+  url: https://www.quantummetric.com/blog
+- type: Support
+  url: https://thequad.quantummetric.com/
+- type: StatusPage
+  url: https://status.quantummetric.com/
+- type: PrivacyPolicy
+  url: https://www.quantummetric.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.quantummetric.com/legal/terms-of-service
+- type: Compliance
+  url: https://www.quantummetric.com/platform/data-privacy-security
+- type: Lifecycle
+  url: lifecycle/quantum-metric-lifecycle.yml
+- type: Conformance
+  url: conformance/quantum-metric-conformance.yml
+- type: DomainSecurity
+  url: security/quantum-metric-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

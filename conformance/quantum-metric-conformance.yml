@@ -1,0 +1,38 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.quantummetric.com/platform/data-privacy-security
+standards:
+  - id: soc2
+    conforms: true
+    evidence: "SOC 2 + HITRUST attestation stated on data-privacy-security page"
+  - id: hitrust
+    conforms: true
+    evidence: "SOC 2 + HITRUST attestation stated on data-privacy-security page"
+  - id: iso-27001
+    conforms: true
+    evidence: "'fully ISO/IEC 27001 certified' stated on data-privacy-security page"
+  - id: gdpr
+    conforms: true
+    evidence: "GDPR compliance stated on data-privacy-security and privacy-policy pages"
+  - id: ccpa
+    conforms: true
+    evidence: "CCPA compliance stated on data-privacy-security page"
+  - id: pci-dss
+    conforms: false
+    evidence: "PCI referenced only in the context of helping customers maintain compliance; no direct QM certification claimed"
+  - id: hipaa
+    conforms: false
+    evidence: "HIPAA referenced only as a regulation QM practices help customers with; no direct certification claimed"
+  - id: fedramp
+    conforms: false
+compliance_page: https://www.quantummetric.com/platform/data-privacy-security
+certifications:
+  - SOC 2
+  - HITRUST
+  - ISO/IEC 27001
+notes: >-
+  No public OpenAPI/developer portal was discoverable during enrichment
+  (developer.quantummetric.com and docs.quantummetric.com 302-redirect to the
+  marketing site; help.quantummetric.com returns a maintenance page). Standards
+  here are drawn from published security/compliance and privacy pages, not from a
+  machine-readable API spec.
