@@ -1,0 +1,31 @@
+# Front Door AI Index — quantum-metric — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: quantum-metric
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.quantummetric.com
+  final_host: www.quantummetric.com
+  ownership: own
+  owner: quantum-metric
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 26
+  host_score: 26
+  density: 24.6
+  words: 1057
+  tiers:
+    agentic: 14
+    core: 12
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 11
+    agentic: 10
+    AI assistant: 2
+    agent: 2
+    AI agent: 1
+    chatbot: 1
+    machine learning: 1
