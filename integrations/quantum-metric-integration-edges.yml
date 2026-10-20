@@ -2,6 +2,7 @@ generated: '2026-10-14'
 method: searched
 checked:
 - new-relic/integrations/new-relic-integration-edges.yml
+- https://listings.pcisecuritystandards.org/assessors_and_solutions
 source:
 - new-relic/integrations/new-relic-integration-edges.yml
 edges:
@@ -22,3 +23,36 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: Community
+- partner_name: PCI Security Standards Council (program listings)
+  partner: null
+  partner_match: register-name
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.pcisecuritystandards.org/assessors_and_solutions/software_lifecycle/
+  category: Payment security validation
+  contract_reference:
+    register: PCI SSC program listings (listings.pcisecuritystandards.org / pcisecuritystandards.org)
+    spec_file: null
+    standard: PCI SSC
+    role: pci-validated-vendor
+    registered_name: Quantum Metric, Inc.
+    website: null
+    matched_domain: null
+    matched_by: register-name
+    identity_source: register-name
+    certified_products:
+    - product: PCI Secure SLC Qualified Vendor
+      lapsed: false
+      latest_expiry: '2028-08-12'
+      listed: 1
+    signal_note: one certified_products entry per PCI SSC program (Secure Software, PA-DSS, P2PE solution / component
+      / application, 3DS SDK, SPoC, CPoC, MPoC, PTS device, Secure SLC); lapsed = every listed product in that program
+      is past its expiry / reassessment date or marked expired; `listed` is context only. List Access Agreement
+      accepted on Kin's instruction 2026-10-20
+    detected_by: sweep-compliance-assurance.py
+    detected: '2026-10-20'
+    identity_note: register-name 'quantummetric' = quantum-metric; no wikidata P856
+  detected_by: sweep-compliance-assurance.py
+  first_seen: '2026-10-20'
