@@ -3,26 +3,10 @@ method: searched
 checked:
 - new-relic/integrations/new-relic-integration-edges.yml
 - https://listings.pcisecuritystandards.org/assessors_and_solutions
+- backstage/integrations/backstage-integration-edges.yml
 source:
 - new-relic/integrations/new-relic-integration-edges.yml
 edges:
-- partner_name: New Relic (own)
-  partner: new-relic
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://newrelic.com/instant-observability/quantum-metric
-  mirror_of: new-relic/integrations/new-relic-integration-edges.yml
-  apps:
-  - Quantum Metric
-  listing_count: 1
-  detected: '2026-10-14'
-  detected_by: mirror-platform-listings.py
-  category: Community
 - partner_name: PCI Security Standards Council (program listings)
   partner: null
   partner_match: register-name
@@ -56,3 +40,37 @@ edges:
     identity_note: register-name 'quantummetric' = quantum-metric; no wikidata P856
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
+- partner_name: New Relic (own)
+  partner: new-relic
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://newrelic.com/instant-observability/quantum-metric
+  mirror_of: new-relic/integrations/new-relic-integration-edges.yml
+  apps:
+  - Quantum Metric
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Community
+- partner_name: Backstage (own)
+  partner: backstage
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://github.com/backstage/backstage/tree/d72327203d5d0812bee2eace8688fa5ab22867be/microsite/data/plugins/analytics-module-qm.yaml
+  mirror_of: backstage/integrations/backstage-integration-edges.yml
+  apps:
+  - 'Analytics Module: Quantum Metric'
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Monitoring
