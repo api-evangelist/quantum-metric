@@ -36,32 +36,6 @@
     identity_note: register-name 'quantummetric' = quantum-metric; no wikidata P856
   status: not-a-workflow
   arazzo: null
-- slug: quantum-metric-new-relic-own
-  label: New Relic (own)
-  partner: new-relic
-  partner_name: New Relic (own)
-  category: Community
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://newrelic.com/instant-observability/quantum-metric
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
-- slug: quantum-metric-backstage-own
-  label: Backstage (own)
-  partner: backstage
-  partner_name: Backstage (own)
-  category: Monitoring
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://github.com/backstage/backstage/tree/d72327203d5d0812bee2eace8688fa5ab22867be/microsite/data/plugins/analytics-module-qm.yaml
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: quantum-metric-servicenow-store-partner-apps
   label: ServiceNow Store (partner apps)
   partner: servicenow
@@ -101,5 +75,44 @@
       never counted'
     detected_by: sweep-servicenow-store.py
     detected: '2026-10-23'
+  status: not-a-workflow
+  arazzo: null
+- slug: quantum-metric-new-relic-own
+  label: New Relic (own)
+  partner: new-relic
+  partner_name: New Relic (own)
+  category: Community
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://newrelic.com/instant-observability/quantum-metric
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: quantum-metric-backstage-own
+  label: Backstage (own)
+  partner: backstage
+  partner_name: Backstage (own)
+  category: Monitoring
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://github.com/backstage/backstage/tree/d72327203d5d0812bee2eace8688fa5ab22867be/microsite/data/plugins/analytics-module-qm.yaml
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: quantum-metric-adobe-experience-cloud-own
+  label: Adobe Experience Cloud (own)
+  partner: adobe-experience-cloud
+  partner_name: Adobe Experience Cloud (own)
+  category: Adobe Exchange Experience Cloud listing (Experience Platform)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600211
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null
